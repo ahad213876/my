@@ -1,0 +1,126 @@
+/* Extra small devices (phones, 600px and down) */
+@media(max-width: 600px) {
+    *{
+   margin: 0;
+   padding: 0;
+  
+    }
+    
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+}
+.nav-bar .nav-items{
+    text-align: left;
+    float: left;
+    padding-top: 35px;
+   
+   height: 0px;
+    width: 100%;
+}
+.nav-items ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.drop-down-1 {
+    padding-left: 0px;
+    text-align: start;
+    width: 100%;
+    padding-bottom: 0px;
+}
+.nav-items .drop-down {
+    padding-left: 0px;
+    text-align: start;
+    padding-bottom: 0px;
+}
+.nav-items .drop-down .drop-down-link{
+    padding-left: 0px;
+}
+.nav-items ul li i {
+    font-size: 30px;
+  
+}
+
+.nav-items ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 14px;
+    font-family: 'inter', sans-serif;
+    font-weight: 800;
+    font-size: 10px;
+    color: black;
+    margin-right: 40px;
+    margin-top: 10px;
+   
+}
+.nav-items ul {
+    width: 100%;
+}
+.nav-bar .drop-down-1  a {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+}
+.nav-bar .drop-down-1 .drop-down-1-history .drop-down-details span {
+    margin-top: 10px;
+}
+
+.nav-bar .drop-down-1 .drop-down-1-history{
+    /* visibility: visible; */
+top: 200px;
+   
+    
+    right: 0;
+}
+
+.drop-down-details{
+    height: 100px;
+}
+.nav-bar .drop-down-1 .drop-down-1-history .drop-down-details{
+    border-radius: 10px;
+}
+.nav-bar .drop-down-1 .drop-down-1-history{
+    width: 100%;
+    padding: 0px 0px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+    
+    .nav-items .drop-down-1:hover  a {
+        margin-bottom: 90px;
+    }
+    .nav-bar .drop-down-1 a {
+        padding-bottom: 0px;
+    }
+
+    .nav-items  .drop-down-items{
+        
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 10px 10px;
+        margin: 0px;
+        top: 15px;
+    }
+    .nav-items  .drop-down:hover {
+        margin-bottom: 90px;
+    }
+    .nav-bar .drop-down-1 .drop-down-1-history .drop-down-details a img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .banner{
+        background-size: 100% 100%;
+        width: 100%;
+    }
+.banner-slide-container{
+    width: 100%;
+}
+
+}
